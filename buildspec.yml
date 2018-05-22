@@ -1,0 +1,21 @@
+version: 0.2
+
+env:
+  variables:
+
+phases:
+  install:
+    commands:
+    
+  pre_build:
+    commands:
+      
+  build:
+    commands:
+      - git pull origin master
+      
+  post_build:
+    commands:
+      
+artifacts:
+ 
